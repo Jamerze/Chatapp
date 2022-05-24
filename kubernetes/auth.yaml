@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: IfNotPresent
-        image: jamerze/authapi
+        image: jamerze/authapi:latest
         ports:
           - containerPort: 3000
             name: http-web-svc
